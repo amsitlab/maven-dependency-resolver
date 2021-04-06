@@ -6,7 +6,7 @@
 ## Snippets
 
 ```java
-HTTPRepository repository = new HTTPRepository("	https://repo1.maven.org/maven2/");
+HTTPRepository repository = new HTTPRepository("https://repo1.maven.org/maven2/");
 Artifact artifact = repository.resolveArtifact("group id", "artifact id");
 
 artifact.getVersions(); // A list of versions
